@@ -1,0 +1,11 @@
+/* Services Container Styling */
+#services {
+	flex-direction: column;
+}
+#services .box {
+	padding: 30px;
+}
+/* Contact Section Styling */
+form {
+	width: 80%;
+}

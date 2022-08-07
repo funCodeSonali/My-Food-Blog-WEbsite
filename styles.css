@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+/* Navbar Styling */
+
+#navid {
+	display: flex;
+	position: sticky;
+	top: 0;
+	align-items: center;
+}
+
+#navid::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: black;
+	z-index: -1;
+	opacity: 0.6;
+}
+#navid ul {
+	display: flex;
+	position: absolute;
+	width: 96%;
+	justify-content: end;
+	align-items: center;
+}
+.logoheading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#navid ul li {
+	list-style: none;
+	font-family: 'Baloo 2', cursive;
+}
+
+#navid ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 3px 25px;
+	margin: 0 4px;
+	font-size: 1.5rem;
+	color: white;
+}
+
+#navid ul li a:hover {
+	color: black;
+	background: white;
+	font-weight: bold;
+	opacity: 0.9;
+	border-radius: 20px;
+}
+
+#navid h1 {
+	color: white;
+	font-family: 'Baloo 2', cursive;
+}
+
+#logo img {
+	border: 2px solid black;
+	height: 70px;
+	width: 80px;
+	margin: 10px 25px 10px 45px;
+	border-radius: 60%;
+}
+
+/* SectionHome Styling */
+
+#secidHome {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 200px;
+	justify-content: center;
+	align-items: center;
+}
+
+#secidHome > h1 {
+	padding: 10px;
+}
+
+#secidHome p {
+	padding: 10px;
+}
+#secidHome button {
+	margin-top: 20px;
+	padding: 10px;
+	border: 2px solid white;
+	color: white;
+	background: #284c28;
+}
+
+#secidHome::before {
+	content: "";
+	background-image: url(./images/food1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	/* top: 0%; */
+	bottom: 45px;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	z-index: -3;
+}
+
+/* Utility Classes */
+.h-primary {
+	font-size: 2.5rem;
+	font-family: 'Bree Serif', serif;
+}
+.h-secondary {
+	font-size: 1.5rem;
+	font-family: 'Bree Serif', serif;
+}
+.p-primary {
+	font-size: 1rem;
+	font-family: 'Bree Serif', serif;
+}
+.center {
+	text-align: center;
+}
+.relativepos {
+	position: relative;
+}
+.btn {
+	font-size: 1rem;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/* ServicesContainer Styling */
+#services {
+	display: flex;
+	margin: 20px;
+}
+#services .box h2 {
+	margin: 20px;
+}
+#services .box {
+	border: 1.5px solid #284c28;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 23px;
+	background: rgba(214, 230, 129, 0.2);
+}
+#services .box .image-services {
+	border-radius: 20%;
+	height: 100px;
+	display: block;
+	margin: auto;
+}
+/* ClientsContainer Styling */
+
+#secidclientsContainer::before {
+	content: "";
+	position: absolute;
+	background-image: url(./images/food2.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	/* border-radius: 23px 23px 0 0; */
+	z-index: -3;
+	opacity: 0.5;
+}
+#secidclientsContainer h1 {
+	padding-top: 20px;
+}
+#secidclientsContainer .clientsrc {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+}
+#secidclientsContainer .clientsrc .image-clients {
+	display: block;
+	margin: 10px 20px;
+}
+/* #secidclientsContainer .linediv {
+	width: 100%;
+	height: 1px;
+	margin-top: 20px;
+	background: black;
+} */
+
+/* Contact Section Styling */
+
+.contactbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* padding: 20px; */
+}
+#secidContactContainer::before {
+	content: "";
+	position: absolute;
+	background-image: url(./images/contactus.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	/* border-radius: 23px 23px 0 0; */
+	z-index: -3;
+	opacity: 0.5;
+}
+form {
+	width: 50%;
+}
+.contactbox .form-group,
+.form-group input {
+	padding: 4px;
+}
+
+#secidContactContainer h1 {
+	padding: 20px;
+}
+
+.contactbox .form-group input,
+.contactbox .form-group textarea {
+	width: 100%;
+	font-size: 1rem;
+	font-family: 'Bree Serif', serif;
+	border-radius: 5px;
+	border: 2px solid grey;
+}
+.contactbox .form-group label {
+	font-size: 0.9rem;
+	font-family: 'Bree Serif', serif;
+}
+.contactbox button {
+	background: rgba(0, 0, 0);
+	color: white;
+	padding: 5px 15px;
+	margin-bottom: 15px;
+}
+
+/* Footer Styling */
+footer {
+	background: black;
+	color: white;
+	padding: 5px;
+}

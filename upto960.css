@@ -1,0 +1,31 @@
+#navid {
+	flex-direction: column;
+}
+.logoheading {
+	flex-direction: column-reverse;
+}
+#navid {
+	position: relative;
+}
+#navid ul {
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+#navid ul li a {
+	padding: 3px 20px;
+}
+
+#logo img {
+	margin: 10px;
+}
+/* Section Home  Styling */
+#secidHome {
+	padding: 20px 25px;
+}
+
+form {
+	width: 60%;
+}

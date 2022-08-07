@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 660px)" href="upto660.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="upto480.css">
+    <link rel="stylesheet" media="screen and (max-width: 960px)" href="upto960.css">
+</head>
+<body>
+    <div class="relativepos">
+<nav id="navid">
+    <div class="logoheading">
+        <div id="logo"><img src="./images/logo.jpg" alt="Food Logo"></div>
+        <div><h1 class="center">FoodieUs</h1></div>
+        </div>
+    <ul>
+        <li class="items"><a href="#secidHome">Home</a></li>
+        <li class="items"><a href="#secidServicesContainer">Services</a></li>
+        <li class="items"><a href="#secidclientsContainer">Our Clients</a></li>
+        <li class="items"><a href="#secidContactContainer">Contact Us</a></li>
+    </ul>
+</nav>
+
+<sec id="secidHome">
+    <h1 class="h-primary center">My Food Blog</h1>
+    <p class="p-primary center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem vel illum
+        aliquid fugiat enim, hic et natus sunt! Iste, neque.</p>
+    <p class="p-primary center">Lorem ipsum, dolor sit amet <span style="color: red;">new word</span> adipisicing elit. Ea, praesentium sunt.
+        Molestiae tempora dignissimos nulla commodi neque in, eum quis?</p>
+   <p class="p-primary center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, praesentium sunt.
+    Molestiae tempora dignissimos nulla commodi neque in, eum quis?</p>
+    <button class="btn">Order Now</button>
+</sec>
+</div>
+    
+<sec id="secidServicesContainer">
+<h1 class="h-primary center">Our Services</h1>
+<div id="services">
+    <div class="box">
+        <img class="image-services" src="./images/food-delivery.png" alt="Food image Services 1">
+        <h2 class="h-secondary center">Food Ordering</h2>
+        <p class="p-primary center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse doloremque ipsam, fugit laborum assumenda quia adipisci praesentium ratione voluptas, modi culpa, nisi odit ab. Ipsam </p>
+    </div>
+    <div class="box">
+        <img class="image-services" src="./images/food-delivery.png" alt="Food image Services 1">
+        <h2 class="h-secondary center">Food Catering</h2>
+        <p class="p-primary center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse doloremque ipsam, fugit
+            laborum assumenda quia adipisci praesentium ratione voluptas, modi culpa, nisi odit ab. Ipsam quasi tempora
+           </p>
+    </div>
+    <div class="box">
+        <img class="image-services" src="./images/food-delivery.png" alt="Food image Services 1">
+        <h2 class="h-secondary center">Bulk Ordering</h2>
+        <p class="p-primary center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse doloremque ipsam, fugit
+            laborum assumenda quia adipisci praesentium ratione voluptas, modi culpa, nisi odit ab. Ipsam quasi tempora
+        </p>
+    </div>
+</div>
+</sec>
+<div class="relativepos">
+<sec id="secidclientsContainer">
+    <h1 class="h-primary center">Our Clients</h1>
+    <!-- <div class="linediv"></div> -->
+    <div class="clientsrc">
+        <img class="image-clients" src="./images/cirrus.png" alt="logo">
+        <img class="image-clients" src="./images/paypal.png" alt="logo">
+        <img class="image-clients" src="./images/skype.png" alt="logo">
+        <img class="image-clients" src="./images/visa.png" alt="logo">
+        <img class="image-clients" src="./images/discover.png" alt="logo">
+        <img class="image-clients" src="./images/symbols.png" alt="logo">
+        <img class="image-clients" src="./images/skype.png" alt="logo">
+        <img class="image-clients" src="./images/cirrus.png" alt="logo">
+        <img class="image-clients" src="./images/symbols.png" alt="logo">
+        <img class="image-clients" src="./images/skype.png" alt="logo">
+    </div>
+</sec>
+</div>
+
+<div class="relativepos">
+    <sec id="secidContactContainer">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div class="contactbox">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name : </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone : </label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter Your Phone">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description : </label>
+                    <textarea name="descriptioon" id="description" cols="30" rows="5"></textarea>
+                </div>
+            </form>
+            <button class="btn">Done</button>
+        </div>
+    </sec> 
+</div>
+
+<footer class="center">
+    Copyright &copy; FoodieUs.com. All rights reserved.
+</footer>
+
+</body>
+</html>
